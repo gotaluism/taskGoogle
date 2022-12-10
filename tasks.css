@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+#titulo{
+    color: #0008C1;
+    text-align: center;
+
+}
+
+#agregarTarea, #eliminarTarea{
+    border:none;
+    background-color: transparent;
+    margin:20px;
+    
+
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: radial-gradient(circle at -19.64% 62.28%, #fffff3 0, #ffffeb 10%, #fdffe4 20%, #f3fcdc 30%, #e7f7d4 40%, #daf2cd 50%, #ccedc7 60%, #bee9c2 70%, #afe5bf 80%, #a1e1be 90%, #92debf 100%);
+}
+
+input{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin:10px;
+    border-radius: 20px;
+}
+
+#botones{
+    display:flex;
+    justify-content: center;
+}
+
+#tasks{
+    
+    text-align: center;
+}
+
+@media (max-width:360px ){
+
+    
+    #tasks{
+        
+        text-align: left;
+    }
+    
+}
